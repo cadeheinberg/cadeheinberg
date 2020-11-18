@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 245, 245);
+}
+
+#myheader{
+    font-family: 'Oswald', sans-serif;
+    background-color:white;
+    border-style: solid;
+    border-color: white;
+    border-bottom-color: rgb(253, 242, 242);
+    height: 100px;
+    margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    font-size: 50px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+#myfooter{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color:white;
+    border-style: solid;
+    border-color: white;
+    border-top-color: rgb(253, 242, 242);
+    height: 100px;
+    margin-top: 500px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-bottom: 60px;
+}
+
+#footerParagraphs{
+    font-size: 20px;
+    line-height: 10px;
+}
+
+#footerTitle{
+    font-size: 30px;
+    line-height: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 130px;
+    font-weight: 50;
+    padding-bottom: 1px;
+    margin-bottom: 50px;
+    margin-left: -25px;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: underline;
+  }
+  
+a:visited {
+    text-decoration: none;
+}
+
+a{
+	font-size: 40px;
+}
+
+.centerLinks{
+    text-align: center;  
+}
