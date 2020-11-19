@@ -8,12 +8,13 @@ body{
     border-style: solid;
     border-color: white;
     border-bottom-color: rgb(237, 255, 250);
-    height: 100px;
-    margin-top: -60px;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -10px;
+    height: 50px;
     font-size: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
     padding-left: 20px;
     padding-bottom: 25px;
 }
@@ -21,15 +22,16 @@ body{
 #myfooter{
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    background-color:white;
+    background-color: white;
     border-style: solid;
     border-color: white;
     border-top-color: rgb(230, 255, 250);
     height: 100px;
-    margin-top: 350px;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
     font-size: 20px;
     padding-left: 20px;
     padding-bottom: 60px;
