@@ -119,7 +119,6 @@ button:hover{
     margin-bottom: 10px;
 }
 
-
 @media screen and (max-width: 849px){
     .adminButton{
 	margin-left: -10px;

@@ -1,84 +1,85 @@
 body{
-    background-color: rgb(255, 245, 245);
+    background-color: rgb(253, 219, 219);
 }
 
-#myheader{
-    font-family: 'Oswald', sans-serif;
-    background-color:white;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    border-bottom-color: rgb(253, 242, 242);
-    height: 70px;
-    width: 100%;
+#selfie{
+    width: 200;
     position: absolute;
+}
+
+header{
+    position: absolute;
+    z-index: 1;
     top: 0;
-    right: 0;
     left: 0;
-    font-size: 45px;
-    padding-top: 12px;
-    padding-left: 105px;
-    padding-bottom: 15px;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+    width: 100%;
 }
 
-#headerImage{
-    position: absolute;
-    top: 7;
-    width: 70px;
-    height: 70px;
-    left: 20;
-}
-
-#myfooter{
-    text-align: center;
+header h1{
     font-family: 'Oswald', sans-serif;
-    background-color:white;
-    border-style: solid;
-    border-color: white;
-    border-top-color: rgb(253, 242, 242);
+    font-size: 150px;
+    position: absolute;
+    margin-top: 0px;
+    left: 250px;
+    top: 0;
+}
+
+nav{
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    z-index: 0;
+    top: 220px;
+    left: 0px;
+    background-color: rgb(0, 0, 0);
     height: 100px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    font-size: 20px;
-    padding-left: 20px;
-    padding-bottom: 60px;
-    margin-bottom: -1000px;
 }
 
-#footerParagraphs{
-    font-size: 20px;
-    line-height: 10px;
-}
-
-#footerTitle{
-    font-size: 30px;
-    line-height: 10px;
-}
-
-h1 {
+nav button {
+    position: relative;
+    left: 20px;
+    top: 15px;
+    background-color: rgb(255, 101, 101);
+    font-family: 'Archivo Black';
+    border-radius: 40px;
+    border: solid;
+    border-width: 7px;
+    border-color: rgb(255, 97, 97);
+    border-top-color: rgb(250, 131, 131);
+    border-right-color: rgb(240, 106, 106);
     color: black;
-    font-size: 130px;
-    font-weight: 50;
-    padding-bottom: 1px;
-    margin-bottom: 50px;
-    margin-left: -25px;
-    text-align: center;
+    width: 220px;
+    height: 60px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    padding-bottom: 50px;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1115px){
+    header h1{
+        font-size: 120px;
+        left: 220px;
+        top: 20px;
+    }
+    #selfie{
+        width: 170;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
 }
 
 a:link {
-    text-decoration: underline;
+    text-decoration: none;
   }
   
 a:visited {
     text-decoration: none;
-}
-
-a{
-	font-size: 40px;
-}
-
-.centerLinks{
-    text-align: center;  
 }
