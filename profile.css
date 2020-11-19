@@ -1,17 +1,10 @@
-html{
-    margin-right: 0;
-}
 body{
     position: relative;
     margin: 0;
     background-color: rgb(247, 244, 244);
     height: 1000px;
     width: 100%;
-}
-
-#selfie{
-    width: 200;
-    position: relative
+    padding: 0px;
 }
 
 header{
@@ -20,28 +13,16 @@ header{
     top: 0;
     left: 0;
     background-color: rgb(255, 255, 255);
-    border-style: none;
-    padding-top: 10px;
     padding-bottom: 10px;
     height: 200px;
     width: 100%;
-}
-
-header h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: 150px;
-    position: relative;
-    margin-top: 30px;
-    left: 250px;
-    line-height: 30px;
-    top: 0;
 }
 
 nav{
     font-family: 'Oswald', sans-serif;
     position: absolute;
     z-index: 0;
-    top: 220px;
+    top: 180px;
     left: 0px;
     background-color: rgb(255, 238, 0);
     height: 100px;
@@ -81,16 +62,35 @@ footer{
 }
 
 @media screen and (max-width: 500px){
-    header h1{
-        font-size: 60px;
-        left: 150px;
-        top: 20px;
+    header{
+        height: 170px;
     }
-    #selfie{
-        width: 120;
+    #mynamebox{
         position: absolute;
-        left: 20px;
-        top: 40px;
+        top: 50px;
+        right: 0px;
+        font-size: 25px;
+        float: right;
+        width: 65%;
+        height: 120px;
+        padding: 0;
+        border-style: none;
+    }
+    #mynamebox h1{
+        margin: 0;
+        position: absolute;
+        top: 0;
+    }
+    #selfiebox{
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        text-align: center;
+        width: 30%;
+        padding: 0;
+    }
+    img{
+        width: 100%;
     }
     nav{
         height: 45px;
