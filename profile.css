@@ -6,16 +6,26 @@ body{
     font-family: 'Oswald', sans-serif;
     background-color:white;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
     border-bottom-color: rgb(253, 242, 242);
-    height: 100px;
-    margin-top: -60px;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -10px;
-    font-size: 50px;
-    padding-left: 20px;
-    padding-bottom: 25px;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 45px;
+    padding-top: 12px;
+    padding-left: 105px;
+    padding-bottom: 15px;
+}
+
+#headerImage{
+    position: absolute;
+    top: 7;
+    width: 70px;
+    height: 70px;
+    left: 20;
 }
 
 #myfooter{
@@ -26,10 +36,11 @@ body{
     border-color: white;
     border-top-color: rgb(253, 242, 242);
     height: 100px;
-    margin-top: 500px;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-bottom: -10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
     font-size: 20px;
     padding-left: 20px;
     padding-bottom: 60px;
