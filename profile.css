@@ -1,14 +1,21 @@
+html{
+    margin-right: 0;
+}
 body{
+    position: relative;
+    margin: 0;
     background-color: rgb(247, 244, 244);
+    height: 1000px;
+    width: 100%;
 }
 
 #selfie{
     width: 200;
-    position: absolute;
+    position: relative
 }
 
 header{
-    position: absolute;
+    position: relative;
     z-index: 1;
     top: 0;
     left: 0;
@@ -23,9 +30,10 @@ header{
 header h1{
     font-family: 'Oswald', sans-serif;
     font-size: 150px;
-    position: absolute;
-    margin-top: 0px;
+    position: relative;
+    margin-top: 30px;
     left: 250px;
+    line-height: 30px;
     top: 0;
 }
 
@@ -92,8 +100,10 @@ footer{
         margin-right: 17px;
     }
     #pageinfo{
-        position: absolute;
-        top: 260px;
+        position: relative;
+        top: 40px;
+        left: 20px;
+        width: 90%;
     }
     #welcome{
         font-size: 20px;
