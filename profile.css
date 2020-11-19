@@ -62,17 +62,22 @@ nav button {
     margin-right: 30px;
 }
 
-@media screen and (max-width: 1115px){
+@media screen and (max-width: 500px){
     header h1{
-        font-size: 120px;
-        left: 220px;
+        font-size: 60px;
+        left: 150px;
         top: 20px;
     }
     #selfie{
-        width: 170;
+        width: 120;
         position: absolute;
         left: 20px;
-        top: 20px;
+        top: 40px;
+    }
+    nav button{
+        width: 30%;
+        font-size: 19;
+        padding-bottom: 0;
     }
 }
 
