@@ -101,8 +101,8 @@ a:link {
 }
 
 #link{
-    color: rgb(72, 255, 0);
-    text-decoration: underline;
+    color: yellow;
+    text-decoration: underline
 }
 
 #slink{
@@ -111,7 +111,11 @@ a:link {
 }
 
 #blueink{
-    color:rgb(1, 111, 255);
+    color: rgb(255, 0, 149);
+}
+
+#navoffset{
+    background-color: rgb(129, 31, 60);
 }
   
 a:visited {
