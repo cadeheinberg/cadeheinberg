@@ -1,4 +1,4 @@
-@media screen and (max-width: 875px){
+@media screen and (max-width: 680px){
     body{
         position: relative;
         margin: 0;
@@ -26,17 +26,12 @@
         position: absolute;
         top: 48px;
         right: 0px;
-        font-size: 35px;
+        font-size: 25px;
         float: right;
-        width: 81%;
+        width: 61%;
         height: 120px;
         padding: 0;
         border-style: none;
-    }
-    #mynamebox h1{
-        margin: 0;
-        position: absolute;
-        top: 0;
     }
     #selfiebox{
         position: absolute;
