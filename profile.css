@@ -100,7 +100,7 @@ footer{
         right: 0px;
         font-size: 25px;
         float: right;
-        width: 60%;
+        width: 61%;
         height: 120px;
         padding: 0;
         border-style: none;
@@ -113,12 +113,12 @@ footer{
     #selfiebox{
         position: absolute;
         top: 40px;
-        left: 10px;
+        left: 8px;
         text-align: center;
         width: 30%;
         padding: 0;
         border-radius: 100px;
-        border-width: 10px;
+        border-width: 8px;
         border-style: double;
         border-color: rgb(198, 255, 255);
     }
