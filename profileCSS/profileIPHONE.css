@@ -7,8 +7,13 @@
         font-size: 25px;
         width: 61%;
     }
+    nav{
+        left: 1%;
+        width: 98%;
+    }
     button{
         font-size: 18px;
+        border-width: 5px;
     }
     #welcome{
         font-size: 20px;

@@ -45,8 +45,7 @@ nav{
     position: absolute;
     font-family: 'Oswald', sans-serif;
     z-index: 0;
-    top: 180px;
-    left: 0px;
+    top: 190px;
     height: 55px;
     width: 100%;
     padding: 0;
@@ -74,6 +73,8 @@ button{
     height: 100%;
     background-color: rgb(255, 0, 76);
     border-color: #0A0A0A;
+    border-left-width: 5px;
+    border-right-width: 5px;
 }
 a{
     color: rgb(0, 0, 0);
@@ -96,8 +97,8 @@ footer{
     bottom: 1%;
     left: 0;
     background-color: #0A0A0A;
-    border-top-style: dashed;
-    border-bottom-style: dashed;
+    border-top-style: groove;
+    border-bottom-style: groove;
     border-width: 5px;
     border-color: rgb(255, 0, 76);
     padding-top: 0px;
