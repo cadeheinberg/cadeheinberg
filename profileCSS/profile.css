@@ -1,11 +1,8 @@
 body{
-    left: 31.77%;
+    max-width: 900px;
+    margin: auto;
+    background: #0A0A0A;
     position: relative;
-    margin: 0;
-    background-color: #0A0A0A;
-    height: 1080px;
-    width: 700px;
-    padding: 0px;
 }
 #longbody{
     height: 1500px;
