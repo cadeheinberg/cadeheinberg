@@ -13,12 +13,14 @@
     }
     button{
         font-size: 18px;
-        border-width: 5px;
+        border-width: 2px;
     }
     #welcome{
         font-size: 20px;
     }
     footer{
         border-width: 2px;
+        width: 98%;
+        left: 1%;
     }
 }
