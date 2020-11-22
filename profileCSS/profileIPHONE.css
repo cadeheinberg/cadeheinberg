@@ -19,8 +19,13 @@
     #mynamebox h1{
         color:black;
     }
-    
+    nav{
+        border-bottom-style: dotted;
+        border-width: 1px;
+        background-color: white;
+    }
     button{
+        border-color: white;
         font-family: 'Oswald', sans-serif;
         font-size: 18px;
     }
