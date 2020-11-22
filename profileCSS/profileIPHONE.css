@@ -1,6 +1,6 @@
-@media screen and (max-width: 560px){
+@media screen and (max-width: 420px){
     body{
-        height: 800px;
+        height: 1000px;
     }
     #mynamebox{
         top: 48px;
@@ -12,5 +12,8 @@
     }
     #welcome{
         font-size: 20px;
+    }
+    footer{
+        border-width: 2px;
     }
 }

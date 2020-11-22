@@ -9,23 +9,17 @@ body{
 }
 header{
     position: relative;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color:#0A0A0A;
     height: 180px;
     width: 100%;
 }
 #mynamebox{
+    float: right;
     position: absolute;
     top: 70px;
-    right: 0px;
-    font-size: 30px;
-    float: right;
-    width: 75%;
-    height: 100px;
-    padding: 0;
-    border-style: none;
+    left: 140px;
+    font-size: 45px;
+    width: 80%;
 }
 #mynamebox h1{
     color: white;
@@ -139,4 +133,17 @@ a:visited {
 
 button:hover{
     background-color: rgb(219, 38, 92);
+}
+
+@media screen and (max-width: 860px){
+    #mynamebox{
+        top: 79px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    #mynamebox{
+        top: 15px;
+    }
 }
