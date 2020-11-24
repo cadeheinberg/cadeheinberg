@@ -53,13 +53,13 @@ nav{
     border-top-width: 1px;
     border-bottom-width: 2px;
 }
-ul {
+nav ul {
     list-style-type: none;
     margin-top: 0px;
     padding: 0;
     overflow: hidden;
 }    
-li {
+nav ul li {
     text-align: center;
     width: 25%;
     height: 100%;
@@ -85,10 +85,14 @@ a{
     left: 20px;
     width: 90%;
 }
-#welcome{
-    font-size: 30px;
+section{
+    font-size: 18px;
     color: white;
-
+    margin-top: 25px;
+}
+section p{
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 footer{
     color: white;
