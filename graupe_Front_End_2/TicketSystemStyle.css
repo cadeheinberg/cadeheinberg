@@ -1,0 +1,56 @@
+#content{
+    color: gray;
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 15pt;
+    text-align:  center;
+    background: white;
+
+    
+    width:  50%;
+    margin: auto;
+    padding: 40px;
+    border-radius: 10px;   
+}
+
+#header{
+    text-align: right;
+}
+
+.box{
+    margin: auto;
+    width: 50%;
+    border: 8px solid firebrick;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+h1{
+    font-size: 30pt;
+}
+h2{
+    font-size: 20pt;
+}
+body{
+    background: gainsboro;
+    margin: 0px;
+    padding: 0px;
+
+}
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    border-color: gainsboro;
+}
+
+button{
+    background: firebrick;
+    border: 0;
+    color: white;
+    padding: 10px;
+    font-family: "Lucida Console", Courier, monospace;
+    border-radius: 5px;
+}
+button:hover{
+    background: darkred;
+}
