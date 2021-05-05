@@ -1,8 +1,8 @@
 :root {
     --backing: hsl(0, 5%, 12%);
-    --buttonoff: hsl(41, 93%, 57%);
-    --buttonon: hsl(34, 72%, 47%);
-    --links: hsl(300, 100%, 60%);
+    --buttonoff: hsl(41, 94%, 50%);
+    --buttonon: hsl(41, 93%, 35%);
+    --links: hsl(12, 87%, 63%);
     --sublinks: hsl(39, 100%, 60%);
   }
 
