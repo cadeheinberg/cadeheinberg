@@ -30,6 +30,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $content = test_input($_POST["content"]);
   }
 
+  #a preserves and write
+if(empty($nameErr) && empty($titleErr)){
+  if(!empty($name) && !empty($title) && !empty($content)){
+    echo "You made it this far!";
+    $myfile = fopen("notes.csv", "a");
+    $txt = $name . ", " . $title . ", " . $content . "\n";
+    fwrite($myfile, $txt);
+    fclose($myfile);
+    echo "<meta http-equiv = \"refresh\" content = \"1; url = mynotes.php\" />";
+  }
+}
+
 }
 
 function test_input($data) {
@@ -89,17 +101,3 @@ function test_input($data) {
         </div>
     </body>
 </html>
-
-<?php
-#a preserves and write
-if(empty($nameErr) && empty($titleErr)){
-  if(!empty($name) && !empty($title) && !empty($content)){
-    chmod("notes.csv",0600);
-    $myfile = fopen("notes.csv", "a");
-    $txt = $name . ", " . $title . ", " . $content . "\n";
-    fwrite($myfile, $txt);
-    fclose($myfile);
-    echo "<meta http-equiv = \"refresh\" content = \"1; url = mynotes.php\" />";
-  }
-}
-?>
