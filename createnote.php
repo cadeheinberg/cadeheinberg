@@ -82,8 +82,9 @@ function test_input($data) {
         <div id="pageinfo">
         <br>
         <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+        <section id="welcome">
         Your Name:<br><input type="text" name="name" value="<?php echo $name;?>">
-        <span class="error">* <?php echo $nameErr;?></span> 
+        <span class="error">* <?php echo $nameErr;?></span>
         <br><br>
         Note Title:<br><input type="text" name="title" value="<?php echo $title;?>">
         <span class="error">* <?php echo $titleErr;?></span>
@@ -91,8 +92,8 @@ function test_input($data) {
         Content:<br>
         <textarea name="content" rows="5" cols="40"><?php echo $content;?></textarea>
         <br><br>
-        <input type="submit" name="submit" value="Submit">  
-        </form>
+        <input type="submit" name="submit" value="Upload" style = "width: 100; height: 40">  
+        </form></section>
 
         </div>
     </body>
