@@ -80,8 +80,8 @@ function test_input($data) {
         Note Title:<br><input type="text" name="title" value="<?php echo $title;?>">
         <span class="error">* <?php echo $titleErr;?></span>
         <br><br>
-        Content:<br><textarea name="content" rows="5" cols="40">
-        <?php echo $content;?></textarea>
+        Content:<br>
+        <textarea name="content" rows="5" cols="40"><?php echo $content;?></textarea>
         <br><br>
         <input type="submit" name="submit" value="Submit">  
         </form>
