@@ -22,7 +22,7 @@ fclose($myfile);
     <body>
         <header>
             <div id="selfiebox">
-                <img src="selfie.png" id="selfie"/>
+                <a href="index.html"><img src="selfie.png" id="selfie"/></a>
             </div>
             <div id="mynamebox">
                 <h1>Cade's Notepad</h1>
@@ -30,9 +30,6 @@ fclose($myfile);
         </header>
         <nav>
             <ul>
-                <li>
-                    <a href="index.html"><button>Home</button></a>
-                </li>
                 <li>
                     <a href="mynotes.php"><button id="navoffset">View Notes</button></a>
                 </li>
@@ -51,11 +48,11 @@ fclose($myfile);
                 $upload_array = explode (",", $upload); 
                 echo "<section id=\"welcome\">";
                 echo "<p><p id=\"posttitle\">". $upload_array[1] . "</p>";
-                echo $upload_array[2];
-                echo "<br><br>Uploaded by: ". $upload_array[0] . "</p></section>";
+                echo "<strong style=\"font-size: 20px\">Posted by: ". $upload_array[0] . "</strong><br>";
+                echo "<p style=\"font-size: 19px\">$upload_array[2]</p>";
+                echo "</p></section>";
             }
             ?>
-
         </div>
     </body>
 </html>

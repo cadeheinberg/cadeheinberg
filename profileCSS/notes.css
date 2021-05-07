@@ -2,7 +2,7 @@
     --heading: hsl(155, 100%, 67%);
     --backing: rgb(247,247,247);
     --buttonoff: hsl(118, 100%, 80%);
-    --buttonon: hsl(143, 43%, 51%);
+    --buttonon: hsl(144, 47%, 57%);
     --posttitle: hsl(273, 100%, 48%);
     --sublinks: hsl(29, 100%, 50%);
     --textcolor: hsl(0, 0%, 19%);
@@ -68,7 +68,7 @@ nav ul {
 }    
 nav ul li {
     text-align: center;
-    width: 33.33%;
+    width: 50%;
     height: 100%;
     float: left;
 }  
@@ -90,6 +90,7 @@ button{
     font-weight: 700;
     color: var(--textcolor);
 }
+
 #pageinfo{
     position: relative;
     top: 0px;

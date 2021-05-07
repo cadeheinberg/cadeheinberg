@@ -63,7 +63,7 @@ function test_input($data) {
     <body>
         <header>
             <div id="selfiebox">
-                <img src="selfie.png" id="selfie"/>
+                <a href="index.html"><img src="selfie.png" id="selfie"/></a>
             </div>
             <div id="mynamebox">
                 <h1>Cade's Notepad</h1>
@@ -71,9 +71,6 @@ function test_input($data) {
         </header>
         <nav>
             <ul>
-                <li>
-                    <a href="index.html"><button>Home</button></a>
-                </li>
                 <li>
                     <a href="mynotes.php"><button>View Notes</button></a>
                 </li>
