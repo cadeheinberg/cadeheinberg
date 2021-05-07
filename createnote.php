@@ -33,15 +33,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   #a preserves and write
 if(empty($nameErr) && empty($titleErr)){
   if(!empty($name) && !empty($title) && !empty($content)){
-    echo "You made it this far!";
     $myfile = fopen("notes.csv", "a");
     $txt = $name . ", " . $title . ", " . $content . "\n";
-    echo "You made it this far 1!";
     fwrite($myfile, $txt);
     fclose($myfile);
-    echo "You made it this far 2!";
     echo "<meta http-equiv = \"refresh\" content = \"1; url = mynotes.php\" />";
-    echo "You made it this far 3!";
   }
 }
 

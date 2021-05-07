@@ -1,20 +1,5 @@
 <?php 
 $myfile = fopen("notes.csv", "r") or die("Unable to open file!");
-
-#get the entire file as a String
-#(name of the file, maximum number of bites to read)
-#echo fread($myfile,filesize("webdictionary.txt"));
-
-#print line by line
-#feof() checks if the pointer is at the end of the file
-#fgets() goes line by line
-#fgetc() goes char by char
-$header_string = fgets($myfile);
-$header_array = explode (",", $header_string); 
-$title = $header_array[0];
-$username = $header_array[1];
-$content = $header_array[2];
-
 $uploads = array();
 while(!feof($myfile)) {
     array_push($uploads, fgets($myfile));
@@ -24,7 +9,6 @@ $uploads = array_reverse($uploads);
 
 fclose($myfile);
 ?>
-
 
 <html>
     <head>
