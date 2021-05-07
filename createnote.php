@@ -94,6 +94,7 @@ function test_input($data) {
 #a preserves and write
 if(empty($nameErr) && empty($titleErr)){
   if(!empty($name) && !empty($title) && !empty($content)){
+    chmod("notes.csv",0600);
     $myfile = fopen("notes.csv", "a");
     $txt = $name . ", " . $title . ", " . $content . "\n";
     fwrite($myfile, $txt);
