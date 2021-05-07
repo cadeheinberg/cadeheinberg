@@ -36,9 +36,12 @@ if(empty($nameErr) && empty($titleErr)){
     echo "You made it this far!";
     $myfile = fopen("notes.csv", "a");
     $txt = $name . ", " . $title . ", " . $content . "\n";
+    echo "You made it this far 1!";
     fwrite($myfile, $txt);
     fclose($myfile);
+    echo "You made it this far 2!";
     echo "<meta http-equiv = \"refresh\" content = \"1; url = mynotes.php\" />";
+    echo "You made it this far 3!";
   }
 }
 
