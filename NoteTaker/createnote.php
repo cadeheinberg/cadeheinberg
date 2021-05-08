@@ -57,13 +57,14 @@ function test_input($data) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Notepad</title>
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"/>
-        <link href="profileCSS/notes.css" type="text/css" rel="stylesheet"/>
+        <link href="../profile.css" type="text/css" rel="stylesheet"/>
+        <link href="notes.css" type="text/css" rel="stylesheet"/>
     </head>
 
     <body>
         <header>
             <div id="selfiebox">
-                <a href="index.html"><img src="selfie.png" id="selfie"/></a>
+            <a href="../index.html"><img src="../selfie.png" id="selfie"/></a>
             </div>
             <div id="mynamebox">
                 <h1>Cade's Notepad</h1>

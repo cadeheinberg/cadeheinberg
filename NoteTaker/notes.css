@@ -1,0 +1,17 @@
+:root {
+    --heading: hsl(155, 100%, 67%);
+    --backing: rgb(247,247,247);
+    --buttonoff: hsl(118, 100%, 80%);
+    --buttonon: hsl(144, 47%, 57%);
+    --posttitle: hsl(273, 100%, 48%);
+    --sublinks: hsl(29, 100%, 50%);
+    --textcolor: hsl(0, 0%, 19%);
+  }
+
+header{
+    background-color: var(--heading);
+}
+   
+nav ul li {
+    width: 50%;
+}
