@@ -37,7 +37,7 @@ if(empty($nameErr) && empty($titleErr)){
     $txt = $name . ", " . $title . ", " . $content . "\n";
     fwrite($myfile, $txt);
     fclose($myfile);
-    echo "<meta http-equiv = \"refresh\" content = \"1; url = mynotes.php\" />";
+    echo "<meta http-equiv = \"refresh\" content = \"0; url = mynotes.php\" />";
   }
 }
 
