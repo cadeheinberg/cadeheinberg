@@ -1,9 +1,9 @@
 <?php
 $servername = "localhost";
 $myfile = fopen("../../reach.txt", "r") or die("Unable to open file!");
-echo $username . " " . $password
 $username = fgets($myfile);
 $password = fgets($myfile);
+echo $username . " " . $password . "\n";
 
 // Create connection
 // $conn->close();
