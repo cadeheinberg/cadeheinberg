@@ -1,5 +1,5 @@
 <?php
-$servername = "127.0.0.1";
+$servername = "104.197.164.244";
 $myfile = fopen("../../reach.txt", "r") or die("Unable to open file!");
 $username = fgets($myfile);
 $password = fgets($myfile);
