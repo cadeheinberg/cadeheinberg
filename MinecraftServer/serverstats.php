@@ -1,8 +1,8 @@
 <?php
 $servername = "127.0.0.1";
 $myfile = fopen("../../reach.txt", "r") or die("Unable to open file!");
-$username = fgets($myfile);
-$password = fgets($myfile);
+$username = "cadeuser";
+$password = "asj@(_:ASF+@)(__)sf0-@@!!ASDKs84848L";
 echo $username . " " . $password . "\n";
 
 // Create connection
