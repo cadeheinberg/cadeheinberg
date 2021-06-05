@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './profile.css'
 
 class Summer extends React.Component {
   render() {
