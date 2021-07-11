@@ -96,6 +96,13 @@ main{
     margin-right: 1rem;
 }
 
+.post-image-small{
+    float: left;
+    width: 2rem;
+    max-height: 8rem;
+    margin-right: .7rem;
+}
+
 .navbar{
     max-width: 45rem;
    min-width: 375px;
@@ -201,6 +208,13 @@ main{
     .post-image{
         float: left;
         width: 6.7rem;
+        max-height: 8rem;
+        margin-right: .7rem;
+    }
+
+    .post-image-small{
+        float: left;
+        width: 2rem;
         max-height: 8rem;
         margin-right: .7rem;
     }
