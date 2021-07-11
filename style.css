@@ -90,7 +90,6 @@ main{
 .post-title{
     margin: 0rem;
     padding: 0rem;
-    display: inline-block;
     color: var(--text-secondary);
 }
 
@@ -219,13 +218,13 @@ a{
     .post-image{
         width: 6.7rem;
         max-height: 8rem;
-        margin-right: .7rem;
+        margin-right: 0rem;
     }
 
     .post-image-small{
         width: 2.8rem;
         max-height: 8rem;
-        margin-right: .7rem;
+        margin-right: 0rem;
     }
 
     main{
