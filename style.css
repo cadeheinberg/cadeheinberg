@@ -172,8 +172,12 @@ main{
 /* Small screens */
 @media only screen and (max-width: 600px) {
     .nav-link svg{
-        width: 1.8rem;
-        min-width: 1.8rem;
+        width: 1.5rem;
+        min-width: 1.5rem;
+    }
+
+    .link-text{
+        font-size: 12px;
     }
 
     #nav-active{
@@ -187,7 +191,7 @@ main{
     .topbar{
         top: auto;
         bottom: 0;
-        height: 3.8rem;
+        height: 3.4rem;
     }
 
     .topbar-container{
@@ -206,16 +210,17 @@ main{
     }
 
     .name-banner{
-        padding-top: .5rem;
+        padding-top: .3rem;
         position: fixed;
         bottom: auto;
         top: 0;
         margin: auto;
         width: 100%;
-        height: 2.8rem;
+        height: 2.3rem;
     }
     
     .name-banner > h1{
+        font-size: 1.7rem;
         margin: auto;
         color: var(--text-secondary);
     }
