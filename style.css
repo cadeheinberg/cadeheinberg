@@ -176,6 +176,13 @@ main{
         padding-top: 0rem;
     }
 
+    .post-image{
+        float: left;
+        width: 6.7rem;
+        max-height: 8rem;
+        margin-right: .7rem;
+    }
+
     main{
         margin-top: 1rem;
     }
