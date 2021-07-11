@@ -156,7 +156,7 @@ main{
     border-width: 0px;
     border-bottom-width: 5px;
     border-style: solid;
-    color: #ab00c2;;
+    color: #ab00c2;
 }
 
 .fa-secondary{
@@ -179,6 +179,15 @@ main{
 .name-banner > h1{
     margin: auto;
     color: #ab00c2;
+}
+
+a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+a{
+    color: blue;
 }
 
 /* Small screens */
