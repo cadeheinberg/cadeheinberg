@@ -81,9 +81,7 @@ main{
 }
 
 .post-image-small{
-    position: absolute;
-    top: 1.2rem;
-    right: 1rem;
+    float: right;
     width: 3rem;
     max-height: 8rem;
     margin-right: .7rem;
