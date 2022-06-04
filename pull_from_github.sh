@@ -1,3 +1,3 @@
 #!/bin/sh
-git pull
+git -C /var/www/cadeheinberg pull
 exit
