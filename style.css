@@ -97,6 +97,10 @@ main{
     margin-right: .7rem;
 }
 
+.bh-post{
+    border-radius: 10%;
+}
+
 .post-title{
     margin: 0rem;
     padding: 0rem;
