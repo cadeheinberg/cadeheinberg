@@ -88,13 +88,13 @@ main{
 
 .profile-picture{
     float: right;
-    width: 6rem;
+    width: 7rem;
     max-height: 8rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
     border-radius: 50%;
     border: solid;
-    border-color: #777;
+    border-color: rgba(193, 191, 191, 0.51);
 }
 
 .post-image-small{
