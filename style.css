@@ -224,6 +224,10 @@ a{
         margin-right: 0rem;
     }
 
+    .profile-picture{
+        width: 7rem;
+    }
+
     .post-image-small{
         width: 2.8rem;
         max-height: 8rem;
