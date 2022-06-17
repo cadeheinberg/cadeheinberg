@@ -201,7 +201,7 @@ a{
     }
 
     #nav-active{
-        border-top: var(--main-accent)
+        border-top: var(--main-accent);
         border-width: 0px;
         border-top-width: 3.5px;
         border-style: solid;
