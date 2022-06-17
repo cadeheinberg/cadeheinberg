@@ -132,11 +132,43 @@ main{
     box-shadow: 1.5px 2px rgba(0, 0, 0, 0.062), -3px 0 .4em rgba(0, 0, 0, 0.062);
 }
 
+.post-title{
+    margin: 0rem;
+    padding: 0rem;
+    color: var(--text-secondary);
+}
+
+.post-content{
+    margin: 0rem;
+    padding: 0rem;
+    color: var(--text-primary);
+}
+
 .post-image{
     float: right;
     width: 8rem;
     max-height: 8rem;
     margin-right: 1rem;
+}
+
+.post-image-small{
+    float: right;
+    width: 3rem;
+    max-height: 8rem;
+    margin-right: .7rem;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.post-languages{
+    background-color: var(--main-accent);
+    color: white;
+    margin: 0;
+    padding: 0.25em 0.3em 0.0em 0.3em;
+}
+
+.bh-post{
+    border-radius: 10%;
 }
 
 .profile-picture{
@@ -151,29 +183,6 @@ main{
     border: solid;
     border-color: rgba(116, 116, 116, 0.487);
     border-width: 1.5px;
-}
-
-.post-image-small{
-    float: right;
-    width: 3rem;
-    max-height: 8rem;
-    margin-right: .7rem;
-}
-
-.bh-post{
-    border-radius: 10%;
-}
-
-.post-title{
-    margin: 0rem;
-    padding: 0rem;
-    color: var(--text-secondary);
-}
-
-.post-content{
-    margin: 0rem;
-    padding: 0rem;
-    color: var(--text-primary);
 }
 
 .post-list{
@@ -229,7 +238,7 @@ a{
 
     .post{
         position: relative;
-        width: 87%;
+        width: 90%;
         margin: 1rem;
         padding: 1rem;
     }
@@ -252,6 +261,11 @@ a{
 
     main{
         margin-top: 0.5rem;
+    }
+
+    .post-list{
+        margin: 0rem;
+        padding-left: 1.4em;
     }
 
   }
