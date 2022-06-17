@@ -8,6 +8,8 @@
     --bg-primary: #f0f2f5;
     --bg-secondary: #ffffff;
     --transition-speed: 600ms;
+    --main-old: #ab00c2;
+    --main-accent: rgb(142, 75, 149);
 }
 
 body{
@@ -26,7 +28,7 @@ body::-webkit-scrollbar-track{
 }
 
 body::-webkit-scrollbar-thumb{
-    background: #6649b8;
+    background: var(--main-accent)
 }
 
 main{
@@ -36,6 +38,10 @@ main{
     margin-top: 5rem;
     padding: 0rem;
     padding: 0rem;
+}
+
+.page-title{
+    margin: 0;
 }
 
 .topbar{
@@ -163,33 +169,15 @@ main{
 
 #nav-active{
     filter: grayscale(0%) opacity(1);
-    border-bottom: #ab00c2;
+    border-bottom: var(--main-accent);
     border-width: 0px;
     border-bottom-width: 5px;
     border-style: solid;
-    color: #ab00c2;
+    color: var(--main-accent)
 }
 
 .fa-secondary{
-    color:#ab00c2;
-}
-
-.name-banner{
-    padding-top: .5rem;
-    position: fixed;
-    bottom: 0;
-    margin: auto;
-    width: 100%;
-    height: 3rem;
-    text-align: center;
-    background-color: white;
-    box-shadow: 1.5px 2px rgba(0, 0, 0, 0.062), -3px 0 .4em rgba(0, 0, 0, 0.062);
-    z-index: 99999;
-}
-
-.name-banner > h1{
-    margin: auto;
-    color: #ab00c2;
+    color:var(--main-accent)
 }
 
 a:visited {
@@ -213,7 +201,7 @@ a{
     }
 
     #nav-active{
-        border-top: #ab00c2;
+        border-top: var(--main-accent)
         border-width: 0px;
         border-top-width: 3.5px;
         border-style: solid;
@@ -242,18 +230,7 @@ a{
     }
 
     main{
-        margin-top: 3rem;
-    }
-
-    .name-banner{
-        padding-top: .3rem;
-        bottom: auto;
-        top: 0;
-        height: 2.3rem;
-    }
-    
-    .name-banner > h1{
-        font-size: 1.7rem;
+        margin-top: 1.6rem;
     }
 
   }
