@@ -134,8 +134,10 @@ main{
 
 .post-title{
     margin: 0rem;
+    margin-bottom: .1em;
     padding: 0rem;
     color: var(--text-secondary);
+    line-height: 1.1em;
 }
 
 .post-content{
